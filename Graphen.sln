@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphenEditor", "GraphenEditor\GraphenEditor.csproj", "{CE9ABE26-6B46-4DE5-A044-69C0EE8B96F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphen", "Graphen\Graphen.vcxproj", "{E615C217-EED5-461A-A323-597F9638B5DE}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E615C217-EED5-461A-A323-597F9638B5DE}.Debug|x64.ActiveCfg = Debug|x64
+		{E615C217-EED5-461A-A323-597F9638B5DE}.Debug|x64.Build.0 = Debug|x64
+		{E615C217-EED5-461A-A323-597F9638B5DE}.Release|x64.ActiveCfg = Release|x64
+		{E615C217-EED5-461A-A323-597F9638B5DE}.Release|x64.Build.0 = Release|x64
+		{CE9ABE26-6B46-4DE5-A044-69C0EE8B96F2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE9ABE26-6B46-4DE5-A044-69C0EE8B96F2}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE9ABE26-6B46-4DE5-A044-69C0EE8B96F2}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE9ABE26-6B46-4DE5-A044-69C0EE8B96F2}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DA83CF9-8B0C-4179-B966-FFB41CE36241}
+	EndGlobalSection
+EndGlobal
