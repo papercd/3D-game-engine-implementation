@@ -29,12 +29,14 @@ namespace GraphenEditor.GameProject
         {
             var vm = DataContext as NewProject; 
             var projectPath = vm.CreateProject(templateListBox.SelectedItem as ProjectTemplate);
-
             bool dialogResult = false; 
+
             var win = Window.GetWindow(this);
             if (!string.IsNullOrEmpty(projectPath) )
             {
                 dialogResult = true;
+                var project = OpenProject.Open(new ProjectData() { ProjectName = vm.ProjectName, ProjectPath = projectPath});
+                win.DataContext = project;
             }
             win.DialogResult = dialogResult;
             win.Close();

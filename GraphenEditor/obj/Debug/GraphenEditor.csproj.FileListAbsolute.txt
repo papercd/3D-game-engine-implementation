@@ -25,3 +25,9 @@ C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\GameProje
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\GameProject\NewProjectView.baml
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\GameProject\OpenProjectView.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\WorldEditorView.g.cs
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\WorldEditorView.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\ProjectLayoutView.g.cs
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\ProjectLayoutView.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities\UndoRedoView.g.cs
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities\UndoRedoView.baml
