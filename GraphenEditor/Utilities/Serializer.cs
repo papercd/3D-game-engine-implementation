@@ -22,7 +22,8 @@ namespace GraphenEditor.Utilities
             }catch (Exception e)
             {
                 Debug.WriteLine(e.Message);
-                //Todo: proper logging messages. 
+                Logger.Log(MessageType.Error, $"Failed to deserialize {instance} to {path}");
+                throw;
             }
         }
 
@@ -38,8 +39,8 @@ namespace GraphenEditor.Utilities
             catch (Exception e)
             {
                 Debug.WriteLine(e.Message);
-                //Todo: proper logging messages. 
-                return default(T);
+                Logger.Log(MessageType.Error, $"Failed to deserialize {path}");
+                throw;
             }
         }
 

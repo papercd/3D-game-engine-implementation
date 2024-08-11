@@ -11,6 +11,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace GraphenEditor.GameProject
 {
 
@@ -173,7 +174,8 @@ namespace GraphenEditor.GameProject
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-                return string.Empty;
+                Logger.Log(MessageType.Error, $"Failed to craete {ProjectName}");
+                throw;
             }
         }
 
@@ -205,6 +207,8 @@ namespace GraphenEditor.GameProject
             } catch (Exception ex) 
             {
                 Debug.WriteLine(ex.Message);
+                Logger.Log(MessageType.Error, $"Failed to read project templates ");
+                throw;
             }
             
         }

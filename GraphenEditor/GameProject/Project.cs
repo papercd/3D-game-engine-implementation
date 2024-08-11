@@ -85,12 +85,13 @@ namespace GraphenEditor.GameProject
 
         public void Unload()
         {
-
+            UndoRedo.Reset();
         }
 
         public static void Save(Project project)
         {
             Serializer.ToFile(project, project.Fullpath);
+            Logger.Log(MessageType.Info, $"Project saved to {project.Fullpath}");
         }
 
         [OnDeserialized]

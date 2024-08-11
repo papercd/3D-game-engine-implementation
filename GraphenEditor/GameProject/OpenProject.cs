@@ -8,6 +8,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Shapes;
 
 namespace GraphenEditor.GameProject
 {
@@ -109,7 +110,8 @@ namespace GraphenEditor.GameProject
             }catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-                //Todo: error logging 
+                Logger.Log(MessageType.Error, $"Failed to read project data");
+                throw;
             }
         }
     }

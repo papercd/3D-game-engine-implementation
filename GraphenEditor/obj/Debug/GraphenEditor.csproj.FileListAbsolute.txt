@@ -33,3 +33,8 @@ C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities\UndoRedoView.baml
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
 C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Editors\WorldEditor\GameEntityView.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Dictionaries\ControlTemplates.g.cs
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Dictionaries\ControlTemplates.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\App.baml
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities\LoggerView.g.cs
+C:\Users\FORYOUCOM\Desktop\game engine\Graphen\GraphenEditor\obj\Debug\Utilities\LoggerView.baml
